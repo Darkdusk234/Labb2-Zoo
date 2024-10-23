@@ -15,6 +15,10 @@
             Console.WriteLine("Djuret fick mat.");
         }
 
-
+        public virtual void LogDeath(string causeOfDeath)
+        {
+            Alive = false;
+            Console.WriteLine($"Djuret dog av {causeOfDeath}");
+        }
     }
 }
