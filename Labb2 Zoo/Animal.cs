@@ -9,6 +9,9 @@
 
         public string Handler { get; set; }
 
-
+        public virtual void Feed()
+        {
+            Console.WriteLine("Djuret fick mat.");
+        }
     }
 }
