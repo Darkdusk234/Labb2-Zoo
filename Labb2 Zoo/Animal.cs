@@ -13,13 +13,13 @@
         public virtual void Feed()
         {
             _hungry = false;
-            Console.WriteLine("Djuret fick mat.");
+            Console.WriteLine($"{Name} fick mat.");
         }
 
         public virtual void LogDeath(string causeOfDeath)
         {
             Alive = false;
-            Console.WriteLine($"Djuret dog av {causeOfDeath}");
+            Console.WriteLine($"{Name} dog av {causeOfDeath}");
         }
 
         public void LogSickness()
