@@ -27,5 +27,11 @@
             Sick = true;
             Console.WriteLine($"{Name} är sjuk.");
         }
+
+        public void Treatment()
+        {
+            Sick = false;
+            Console.WriteLine($"{Name} är frisk igen.");
+        }
     }
 }
