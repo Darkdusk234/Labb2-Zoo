@@ -2,6 +2,7 @@
 {
     internal class Animal
     {
+        public string Name { get; set; }
         public bool Alive { get; set; }
         public int Age { get; set; }
         public bool Wild { get; set; }
@@ -19,6 +20,12 @@
         {
             Alive = false;
             Console.WriteLine($"Djuret dog av {causeOfDeath}");
+        }
+
+        public void LogSickness()
+        {
+            Sick = true;
+            Console.WriteLine($"{Name} är sjuk.");
         }
     }
 }
