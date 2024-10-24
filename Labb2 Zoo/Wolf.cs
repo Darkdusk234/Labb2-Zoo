@@ -1,6 +1,6 @@
 ﻿namespace Labb2_Zoo
 {
-    internal class Wolf
+    internal class Wolf : Animal
     {
 
     }

@@ -10,13 +10,13 @@
         public string Handler { get; set; }
         private bool _hungry;
 
-        public virtual void Feed()
+        public void Feed()
         {
             _hungry = false;
             Console.WriteLine($"{Name} fick mat.");
         }
 
-        public virtual void LogDeath(string causeOfDeath)
+        public void LogDeath(string causeOfDeath)
         {
             Alive = false;
             Console.WriteLine($"{Name} dog av {causeOfDeath}");
