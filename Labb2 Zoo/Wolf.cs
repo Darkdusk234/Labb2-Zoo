@@ -30,5 +30,10 @@
             IsFemale = isFemale;
             FurColor = furColor;
         }
+
+        public void MakeSound()
+        {
+            Console.WriteLine("OwoOoooOo");
+        }
     }
 }
