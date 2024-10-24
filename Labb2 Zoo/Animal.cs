@@ -8,11 +8,11 @@
         public bool Wild { get; set; }
         public bool Sick { get; set; }
         public string Handler { get; set; }
-        private bool _hungry;
+        public bool Hungry { get; set; }
 
         public void Feed()
         {
-            _hungry = false;
+            Hungry = false;
             Console.WriteLine($"{Name} fick mat.");
         }
 
