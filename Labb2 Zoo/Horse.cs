@@ -34,5 +34,11 @@
         {
             Console.WriteLine("Neigh");
         }
+
+        public void ContestWin()
+        {
+            ContestWinner = true;
+            Console.WriteLine($"{Name} vann en medalj.");
+        }
     }
 }
