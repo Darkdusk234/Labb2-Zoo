@@ -29,5 +29,10 @@
             IsFemale = isFemale;
             ContestWinner = contestWinner;
         }
+
+        public void MakeSound()
+        {
+            Console.WriteLine("Neigh");
+        }
     }
 }
