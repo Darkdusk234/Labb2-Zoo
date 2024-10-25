@@ -9,6 +9,7 @@
         public bool Sick { get; set; }
         public string Handler { get; set; }
         public bool Hungry { get; set; }
+        public bool IsFemale { get; set; }
 
         public void Feed()
         {

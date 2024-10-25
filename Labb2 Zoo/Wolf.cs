@@ -2,7 +2,6 @@
 {
     internal class Wolf : Animal
     {
-        public bool IsFemale { get; set; }
         public string FurColor { get; set; }
 
         public Wolf()
