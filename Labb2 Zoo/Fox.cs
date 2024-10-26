@@ -18,5 +18,18 @@ namespace Labb2_Zoo
             IsFemale = false;
             LikesToPlay = false;
         }
+
+        public Fox(string name, int age, bool wild, string handler, bool isFemale, bool likesToPlay)
+        {
+            Name = name;
+            Alive = true;
+            Age = age;
+            Wild = wild;
+            Sick = false;
+            Handler = handler;
+            Hungry = false;
+            IsFemale = isFemale;
+            LikesToPlay = likesToPlay;
+        }
     }
 }
