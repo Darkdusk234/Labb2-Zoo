@@ -31,5 +31,10 @@ namespace Labb2_Zoo
             IsFemale = isFemale;
             LikesToPlay = likesToPlay;
         }
+
+        public void MakeSound()
+        {
+            Console.WriteLine("Yip");
+        }
     }
 }
