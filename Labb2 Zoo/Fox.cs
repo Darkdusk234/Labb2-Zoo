@@ -36,5 +36,10 @@ namespace Labb2_Zoo
         {
             Console.WriteLine("Yip");
         }
+
+        public void PlayTime()
+        {
+            Console.WriteLine($"{Name} vill leka.");
+        }
     }
 }
