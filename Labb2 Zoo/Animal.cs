@@ -2,14 +2,14 @@
 {
     internal class Animal
     {
-        public string Name { get; set; }
-        public bool Alive { get; set; }
-        public int Age { get; set; }
-        public bool Wild { get; set; }
-        public bool Sick { get; set; }
-        public string Handler { get; set; }
-        public bool Hungry { get; set; }
-        public bool IsFemale { get; set; }
+        public string Name { get; set; } = "Otilldelad";
+        public bool Alive { get; set; } = true;
+        public int Age { get; set; } = 0;
+        public bool Wild { get; set; } = true;
+        public bool Sick { get; set; } = false;
+        public string Handler { get; set; } = "Otilldelad";
+        public bool Hungry { get; set; } = false;
+        public bool IsFemale { get; set; } = false;
 
         public void Feed()
         {
