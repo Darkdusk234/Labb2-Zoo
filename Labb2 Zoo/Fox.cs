@@ -1,6 +1,4 @@
-﻿using System.Xml.Linq;
-
-namespace Labb2_Zoo
+﻿namespace Labb2_Zoo
 {
     internal class Fox : Animal
     {
