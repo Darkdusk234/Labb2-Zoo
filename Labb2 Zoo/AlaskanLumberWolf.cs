@@ -12,5 +12,10 @@
         {
             BirthPlace = birthPlace;
         }
+
+        public void Present()
+        {
+            Console.WriteLine($"{Name} är {Age} år gammal, och föddes i {BirthPlace}.");
+        }
     }
 }
