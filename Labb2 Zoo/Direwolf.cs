@@ -13,5 +13,10 @@
         {
             BirthYear = birthYear;
         }
+
+        public override void PawPrint()
+        {
+            Console.WriteLine("  ^   ^\r\n^ XXXXX ^\r\nXXXXXXXXX\r\nXXXXXXXXX\r\nXXXXXXXXX\r\n  XXXXX");
+        }
     }
 }
