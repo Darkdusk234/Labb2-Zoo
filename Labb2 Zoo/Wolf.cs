@@ -26,7 +26,7 @@
 
         public virtual void PawPrint()
         {
-            Console.WriteLine("  ^ ^ \r\n^ XXX ^\r\nXXXXXXX\r\n XXXXX");
+            Console.WriteLine("  ^ ^\r\n^ XXX ^\r\nXXXXXXX\r\nXXXXXXX\r\n XXXXX");
         }
     }
 }
