@@ -10,9 +10,12 @@
             AlaskanLumberWolf lumberwolf = new AlaskanLumberWolf("Brett", 9, false, "Bert", false, "Light-Gray", "Minnesota");
 
             horse.MakeSound();
+            Console.WriteLine();
             fox.MakeSound();
+            Console.WriteLine();
             lumberwolf.MakeSound();
             lumberwolf.PawPrint();
+            Console.WriteLine();
             direwolf.MakeSound();
             direwolf.PawPrint();
         }
