@@ -9,7 +9,12 @@
             Direwolf direwolf = new Direwolf("Kraven", 6, true, "Triss", false, "Dark-Gray", 1675);
             AlaskanLumberWolf lumberwolf = new AlaskanLumberWolf("Brett", 9, false, "Bert", false, "Light-Gray", "Minnesota");
 
-            
+            horse.MakeSound();
+            fox.MakeSound();
+            lumberwolf.MakeSound();
+            lumberwolf.PawPrint();
+            direwolf.MakeSound();
+            direwolf.PawPrint();
         }
     }
 }
